@@ -1,11 +1,7 @@
-$mainBlue: #2f5572;
+/*"Recipe pointing towards other files"*/
 
-body {
-    color: $mainBlue;
-    padding: 10px;
-    columns: 300px 2;
-    
-    p {
-        color: white;
-    }
-}
+@import "normalize.css";
+@import "base/_global";
+@import "base/_variables";
+@import "modules/_large-hero";
+@import "modules/_btn";
