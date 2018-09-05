@@ -1,0 +1,10 @@
+body {
+    color: #2f5572;
+    padding: 10px;
+    -webkit-columns: 300px 2;
+            columns: 300px 2;
+}
+    
+    body p {
+        color: white;
+    }
