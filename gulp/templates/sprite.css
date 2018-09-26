@@ -3,6 +3,10 @@
         .icon {
             background-image: url("/nlove/git-webdev/app/assets/images/sprites/{{{sprite}}}");
         }
+        
+        .no-svg .icon {
+            background-image: url("/nlove/git-webdev/app/assets/images/sprites/{{#replaceSvgWithPng}}{{{sprite}}}{{/replaceSvgWithPng}}");
+        }
     {{/first}}
 
 
