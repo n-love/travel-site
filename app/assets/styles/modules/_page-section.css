@@ -13,8 +13,10 @@
     &--testimonials {
         background-color: #E0E6EF;
         @mixin atLarge {
-            background: url('/nlove/git-webdev/app/assets/images/testimonials-bg.jpg') center no-repeat;
-            background-size: cover;
+            &.lazyloaded {
+                background: url('/nlove/git-webdev/app/assets/images/testimonials-bg.jpg') center no-repeat;
+                background-size: cover;
+            }
         }
     }
     
